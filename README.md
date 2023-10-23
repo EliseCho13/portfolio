@@ -28,7 +28,7 @@ Welcome to my software engineering portfolio! I'm Youji Cho, a passionate front-
 
 ## Projects
 
-### Project 1: CodeDang
+### Project 1: CodeDang
 
 ![Project 1 Screenshot](/screenshots/project1.png)
 
