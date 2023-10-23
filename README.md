@@ -14,6 +14,7 @@ Welcome to my software engineering portfolio! I'm Youji Cho, a passionate front-
 ## Skills
 
 - HTML, CSS, JavaScript, Typescript
+- Python, C
 - Frontend Frameworks: React, Vue.js
 - CSS Frameworks: Tailwind CSS, Styled-Components
 - Version Control: Git
@@ -27,38 +28,41 @@ Welcome to my software engineering portfolio! I'm Youji Cho, a passionate front-
 
 ## Projects
 
-### Project 1: [Project Name]
+### Project 1: CodeDang
 
 ![Project 1 Screenshot](/screenshots/project1.png)
 
 - Description: A brief description of the project.
 - Technologies Used: List the technologies and tools used.
-- [Demo](https://example.com/)
-- [GitHub Repository](https://github.com/yourusername/project1)
+- [Demo](https://codedang.com/)
+- [GitHub Repository](https://github.com/skkuding/codedang)
+- [Explanation](https://docs.skkuding.dev)
 
-### Project 2: [Project Name]
+### Project 2: For Your Cocktail
 
 ![Project 2 Screenshot](/screenshots/project2.png)
 
 - Description: A brief description of the project.
 - Technologies Used: List the technologies and tools used.
 - [Demo](https://example.com/)
-- [GitHub Repository](https://github.com/yourusername/project2)
+- [GitHub Repository](https://github.com/silverwest8/MixBowl)
+- [Explanation](pdf)
 
-### Project 3: [Project Name]
+### Project 3: HEART
 
 ![Project 3 Screenshot](/screenshots/project3.png)
 
 - Description: A brief description of the project.
 - Technologies Used: List the technologies and tools used.
-- [Demo](https://example.com/)
-- [GitHub Repository](https://github.com/yourusername/project3)
+- [Demo](https://heartone.site/)
+- [GitHub Repository](https://github.com/codestates-seb/seb41_main_001)
 
 ## Education
 
 - Bachelor's degree expected  in Computer Science and Engineering, SungKyunKwan University(SKKU), 2024
 - Bachelor's degree expected  in Physics, SungKyunKwan University(SKKU), 2024
 - Currently 4th grade student
+- Finished boot camp of frontend course, 2022
 
 ## Contact Me
 
