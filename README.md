@@ -46,7 +46,7 @@ Welcome to my software engineering portfolio! I'm Youji Cho, a passionate front-
 - Technologies Used: List the technologies and tools used.
 - [Demo](https://example.com/)
 - [GitHub Repository](https://github.com/silverwest8/MixBowl)
-- [Explanation](pdf)
+- [Explanation](Springer_Lecture_Notes_in_Computer_Science__1_.pdf)
 
 ### Project 3: HEART
 
