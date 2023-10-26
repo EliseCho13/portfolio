@@ -6,6 +6,14 @@ export default function socialMedia() {
   if (!socialMediaLinks.display) {
     return null;
   }
+  const handleCopyClick = async (text, type) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      alert(`${type} ID was copied to clipboard`);
+    } catch (err) {
+      alert("Copy to clipboard failed. Please copy the text manually.");
+    }
+  };
   return (
     <div className="social-media-div">
       {socialMediaLinks.github ? (
@@ -32,6 +40,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.email ? (
+        <a
+          href={`mailto:${socialMediaLinks.email}`}
+          className="icon-button gitlab"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-envelope"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
@@ -44,7 +64,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gitlab ? (
+      {/* {socialMediaLinks.gitlab ? (
         <a
           href={socialMediaLinks.gitlab}
           className="icon-button gitlab"
@@ -54,18 +74,29 @@ export default function socialMedia() {
           <i className="fab fa-gitlab"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
-      {socialMediaLinks.facebook ? (
-        <a
-          href={socialMediaLinks.facebook}
-          className="icon-button facebook"
-          target="_blank"
-          rel="noopener noreferrer"
+      {socialMediaLinks.kakaotalk ? (
+        <span
+          className="icon-button kakaotalk"
+          onClick={() => {
+            handleCopyClick(socialMediaLinks.kakaotalk, "kakaotalk");
+          }}
         >
-          <i className="fab fa-facebook-f"></i>
+          <i className="fas fa-comment"></i>
           <span></span>
-        </a>
+        </span>
+      ) : null}
+      {socialMediaLinks.discord ? (
+        <span
+          className="icon-button discord"
+          onClick={() => {
+            handleCopyClick(socialMediaLinks.discord, "discord");
+          }}
+        >
+          <i className="fab fa-discord"></i>
+          <span></span>
+        </span>
       ) : null}
 
       {socialMediaLinks.instagram ? (
