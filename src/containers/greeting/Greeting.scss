@@ -37,7 +37,7 @@
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
-  color: $textColor !important;
+  color: $textColor;
 }
 
 .greeting-text-p {
@@ -47,7 +47,12 @@
 
 .greeting-image-div > img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
+}
+.greeting-lottie {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid red;
 }
 
 .wave-emoji {

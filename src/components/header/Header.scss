@@ -15,15 +15,18 @@
 .dark-menu li a {
   color: $textColorDark !important;
 }
+.dark-menu li a:hover {
+  color: $textColor !important;
+}
 
 .dark-menu li a:hover {
-  background-color: $buttonColor !important;
+  background-color: $buttonHover !important;
 }
 
 .header {
   background-color: $lightBackground1;
   max-width: 100%;
-  padding: 15px 20px;
+  padding: 25px 32px;
   margin: 0px auto;
 }
 
@@ -32,6 +35,9 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .grey-color {
