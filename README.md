@@ -26,36 +26,9 @@ Welcome to my software engineering portfolio! I'm Youji Cho, a passionate front-
 - English: IH OPIC
 - Spanish: Learning
 
-## Projects
+## How portfolio was made
 
-### Project 1: CodeDang
-
-![Project 1 Screenshot](/screenshots/project1.png)
-
-- Description: A brief description of the project.
-- Technologies Used: List the technologies and tools used.
-- [Demo](https://codedang.com/)
-- [GitHub Repository](https://github.com/skkuding/codedang)
-- [Explanation](https://docs.skkuding.dev)
-
-### Project 2: For Your Cocktail
-
-![Project 2 Screenshot](/screenshots/project2.png)
-
-- Description: A brief description of the project.
-- Technologies Used: List the technologies and tools used.
-- [Demo](https://example.com/)
-- [GitHub Repository](https://github.com/silverwest8/MixBowl)
-- [Explanation](Springer_Lecture_Notes_in_Computer_Science__1_.pdf)
-
-### Project 3: HEART
-
-![Project 3 Screenshot](/screenshots/project3.png)
-
-- Description: A brief description of the project.
-- Technologies Used: List the technologies and tools used.
-- [Demo](https://heartone.site/)
-- [GitHub Repository](https://github.com/codestates-seb/seb41_main_001)
+Used template developed by Jacobo Martínez
 
 ## Education
 
