@@ -130,10 +130,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      schoolName: "Sungkyunkwan University",
+      logo: require("./assets/images/Emblem_01.jpg"),
+      subHeader:
+        "Bachelor of Science in Computer Science and Engineering\nBachelor of Science in Physics",
+      duration: "March 2019 - August 2024",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -141,12 +142,12 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Codestates Bootcamp",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Frontend Bootcamp",
+      duration: "March 2019 - August 2024",
+      desc: "Participated in two React Projects",
+      descBullets: ["Stackoverflow clone coding", ""]
     }
   ]
 };
@@ -347,7 +348,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
