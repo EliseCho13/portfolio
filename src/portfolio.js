@@ -198,7 +198,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/codestates.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
@@ -216,7 +216,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "What I want to say more",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -277,13 +277,17 @@ const achievementSection = {
     },
     {
       title: "eTest",
-      subtitle: "Microsoft Basic Ability",
+      subtitle: "Microsoft Office Professionals Certification",
       image: require("./assets/images/etest.png"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "E-test Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Professional Certification",
+          url: "https://github.com/EliseCho13/portfolio/blob/main/etest_%EC%9E%90%EA%B2%A9%ED%99%95%EC%9D%B8%EC%84%9C.pdf"
+        },
+        {
+          name: "OA Master Certification",
+          url: "https://github.com/EliseCho13/portfolio/blob/main/etest_%EB%A7%88%EC%8A%A4%ED%84%B0.pdf"
         }
       ]
     },
@@ -366,14 +370,14 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: emoji("What I want to say"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
