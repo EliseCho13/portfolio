@@ -186,6 +186,17 @@ const workExperiences = {
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        },
+        {
+          name: "Visit Github",
+          url: ""
+        }
+        //  you can add extra buttons here.
       ]
     },
     {
@@ -264,14 +275,6 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
@@ -297,6 +300,18 @@ const achievementSection = {
       subtitle: "Level 2",
       image: require("./assets/images/KCCI.png"),
       imageAlt: "Computer Specialist in Spreadsheet and Database Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://github.com/EliseCho13/portfolio/blob/main/src/assets/images/Report_Pass_Eng_Print.pdf"
+        }
+      ]
+    },
+    {
+      title: "Chinese Character Proficiency test (한자능력검정시험)",
+      subtitle: "Grade 2(2급)",
+      image: require("./assets/images/logo_ChineseCharacter.jpeg"),
+      imageAlt: "Korea association for the promotion of hanja education Logo",
       footerLink: [
         {
           name: "Certification",
