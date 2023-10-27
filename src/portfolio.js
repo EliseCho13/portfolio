@@ -27,7 +27,7 @@ const greeting = {
   ),
   resumeLink:
     "https://github.com/EliseCho13/portfolio/blob/main/Resume_English.pdf",
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -40,13 +40,7 @@ const socialMediaLinks = {
   gmail: "kellycho1031@gmail.com",
   kakaotalk: "kellycho1031",
   discord: "elisecho",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
 
 // Skills Section
@@ -175,41 +169,31 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, //my projects
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      name: "For Your Cocktail",
+      team: "MixBowl",
+      teamlogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ],
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        },
-        {
-          name: "Visit Github",
-          url: ""
-        }
-        //  you can add extra buttons here.
-      ]
+      link: "https://github.com/silverwest8/MixBowl"
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      name: "Front-End Developer",
+      team: "Quora",
+      teamlogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/codestates.png"),
+      name: "Software Engineer Intern",
+      team: "Airbnb",
+      teamlogo: require("./assets/images/codestates.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
@@ -226,34 +210,12 @@ const openSource = {
 
 // Some big projects you have worked on
 
-const bigProjects = {
+const additionalComment = {
   title: "What I want to say more",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
+  subtitle:
+    "I am a developer: I have also done many kinds of projects which are not related to web frontend, such as C or python games.",
+  description:
+    "I am a software engineer: Nowaday, AI is growing rapidly. In such situation, What really important is software engineering, not just coding and debugging. I want to see how the large system works, and make improvements in that, while wisely using AI.",
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -382,19 +344,6 @@ const talkSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("What I want to say"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -422,11 +371,10 @@ export {
   techStack,
   workExperiences,
   openSource,
-  bigProjects,
+  additionalComment,
   achievementSection,
   blogSection,
   talkSection,
-  podcastSection,
   contactInfo,
   twitterDetails,
   isHireable

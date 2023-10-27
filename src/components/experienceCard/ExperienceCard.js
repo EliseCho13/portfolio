@@ -31,19 +31,24 @@ export default function ExperienceCard({cardInfo, isDark}) {
   };
 
   return (
-    <div className={isDark ? "experience-card-dark" : "experience-card"}>
+    <div
+      className={isDark ? "experience-card-dark" : "experience-card"}
+      onClick={() => {
+        window.open(cardInfo.link);
+      }}
+    >
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
         <div className="experience-blurred_div"></div>
-        <div className="experience-div-company">
-          <h5 className="experience-text-company">{cardInfo.company}</h5>
+        <div className="experience-div-team">
+          <h5 className="experience-text-team">{cardInfo.team}</h5>
         </div>
 
         <img
           crossOrigin={"anonymous"}
           ref={imgRef}
           className="experience-roundedimg"
-          src={cardInfo.companylogo}
-          alt={cardInfo.company}
+          src={cardInfo.teamlogo}
+          alt={cardInfo.team}
           onLoad={() => getColorArrays()}
         />
       </div>
@@ -55,7 +60,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
               : "experience-text-role"
           }
         >
-          {cardInfo.role}
+          {cardInfo.name}
         </h5>
         <h5
           className={

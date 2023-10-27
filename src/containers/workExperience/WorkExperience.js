@@ -13,7 +13,7 @@ export default function WorkExperience() {
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
-              <h1 className="experience-heading">Experiences</h1>
+              <h1 className="experience-heading">Biggest Projects</h1>
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   return (
@@ -21,12 +21,13 @@ export default function WorkExperience() {
                       key={i}
                       isDark={isDark}
                       cardInfo={{
-                        company: card.company,
+                        team: card.team,
                         desc: card.desc,
                         date: card.date,
-                        companylogo: card.companylogo,
-                        role: card.role,
-                        descBullets: card.descBullets
+                        teamlogo: card.teamlogo,
+                        name: card.name,
+                        descBullets: card.descBullets,
+                        link: card.link
                       }}
                     />
                   );
