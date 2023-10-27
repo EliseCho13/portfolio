@@ -216,7 +216,8 @@ const additionalComment = {
     "I am a developer: I have also done many kinds of projects which are not related to web frontend, such as C or python games.",
   description:
     "I am a software engineer: Nowaday, AI is growing rapidly. In such situation, What really important is software engineering, not just coding and debugging. I want to see how the large system works, and make improvements in that, while wisely using AI.",
-  display: true // Set false to hide this section, defaults to true
+  display: true
+  //TODO: say more
 };
 
 // Achievement Section
@@ -236,7 +237,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://www.notion.so/Certifications-64208a6408d645bea62277b0e7900b71"
         }
       ]
     },

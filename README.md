@@ -29,6 +29,7 @@ Welcome to my software engineering portfolio! I'm Youji Cho, a passionate front-
 ## How portfolio was made
 
 Used template developed by Jacobo Martínez
+Used React.js and Sass
 
 ## Education
 
