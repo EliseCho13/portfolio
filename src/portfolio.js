@@ -258,8 +258,8 @@ const achievementSection = {
     {
       title: "OPIC",
       subtitle: "Intermediate High(IH)",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      image: require("./assets/images/opicLogo.webp"),
+      imageAlt: "Opic logo",
       footerLink: [
         {
           name: "Certification",
@@ -278,7 +278,7 @@ const achievementSection = {
     {
       title: "eTest",
       subtitle: "Microsoft Basic Ability",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/etest.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -291,16 +291,28 @@ const achievementSection = {
     {
       title: "Computer Specialist in Spreadsheet & Database",
       subtitle: "Level 2",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      image: require("./assets/images/KCCI.png"),
+      imageAlt: "Computer Specialist in Spreadsheet and Database Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://github.com/EliseCho13/portfolio/blob/main/src/assets/images/Report_Pass_Eng_Print.pdf"
+        }
+      ]
+    },
+    {
+      title: "CodeStates BootCamp",
+      subtitle: "August 2022 - February 2023",
+      image: require("./assets/images/codestates.png"),
+      imageAlt: "Codestates Logo",
+      footerLink: [
+        {
+          name: "Certification from Codestates",
+          url: "https://www.notion.so/Certifications-64208a6408d645bea62277b0e7900b71"
         },
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification from HRD",
+          url: "https://www.notion.so/Certifications-64208a6408d645bea62277b0e7900b71"
         }
       ]
     }
