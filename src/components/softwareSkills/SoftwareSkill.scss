@@ -15,17 +15,51 @@
   margin-bottom: 20px;
 }
 
-.software-skill-inline > i {
-  color: $subTitle;
+// .software-skill-inline > i,
+// img {
+//   color: $subTitle;
+// }
+.fa-html5 {
+  color: #e34c26;
 }
-
-.software-skill-inline > i:hover {
-  color: $skillsColor;
+.fa-react {
+  color: #61dbfb;
 }
+.fa-css3-alt {
+  color: #264de4;
+}
+.fa-sass {
+  color: #cc6699;
+}
+.fa-js {
+  color: #f0db4f;
+}
+.fa-node {
+  color: #3c873a;
+}
+.fa-npm {
+  color: #cc3534;
+}
+.fa-vuejs {
+  color: #41b883;
+}
+.fa-aws {
+  color: #ff9900;
+}
+.fa-python {
+  color: #ffd43b;
+}
+.fa-docker {
+  color: #0db7ed;
+}
+// .software-skill-inline > i:hover,
+// img:hover {
+//   color: $skillsColor;
+// }
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
 }
-.software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
-}
+// .software-skill-inline > i:hover ~ p {
+//   color: $skillsColor;
+// }

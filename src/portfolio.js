@@ -93,24 +93,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "redux",
+      fontAwesomeClassname: "redux"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Typescript",
+      fontAwesomeClassname: "typescript"
     },
     {
       skillName: "python",
@@ -132,22 +132,21 @@ const educationInfo = {
     {
       schoolName: "Sungkyunkwan University",
       logo: require("./assets/images/Emblem_01.jpg"),
-      subHeader:
-        "Bachelor of Science in Computer Science and Engineering\nBachelor of Science in Physics",
+      subHeader: [
+        "Bachelor of Science in Computer Science and Engineering",
+        "Bachelor of Science in Physics"
+      ],
       duration: "March 2019 - August 2024",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Participated in the multiple team projects",
+      descBullets: ["Mix Bowl", "SKKUDING"]
     },
     {
       schoolName: "Codestates Bootcamp",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Frontend Bootcamp",
-      duration: "March 2019 - August 2024",
+      logo: require("./assets/images/codestates.png"),
+      subHeader: ["Frontend Bootcamp"],
+      duration: "June 2022 - February 2023",
       desc: "Participated in two React Projects",
-      descBullets: ["Stackoverflow clone coding", ""]
+      descBullets: ["pre_003", "main_001"]
     }
   ]
 };
@@ -317,16 +316,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://blog.naver.com/chaenu13",
+      title: "Naver blog postings of basic frontend knowledge",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "From linux problem handling to CSS, graphQL, rendering, REST and so on...all in 코딩(coding) category. Written in Korean."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://www.notion.so/Mix-Bowl-a3c4885e519c4f85a1ad397305b962bc",
+      title: "Notion page of team and personal space",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Team space is for Mix Bowl(For your cocktail), personal space for TIL. Written in Korean."
     }
   ],
   display: true // Set false to hide this section, defaults to true

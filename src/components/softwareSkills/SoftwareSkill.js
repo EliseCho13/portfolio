@@ -14,7 +14,19 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                {skills.fontAwesomeClassname === "typescript" ? (
+                  <img
+                    src={require("../../assets/images/typescript_original_logo.png")}
+                    alt="typescript"
+                  />
+                ) : skills.fontAwesomeClassname === "redux" ? (
+                  <img
+                    src={require("../../assets/images/redux_original_logo.png")}
+                    alt="redux"
+                  />
+                ) : (
+                  <i className={skills.fontAwesomeClassname}></i>
+                )}
                 <p>{skills.skillName}</p>
               </li>
             );
