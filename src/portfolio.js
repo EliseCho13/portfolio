@@ -286,11 +286,11 @@ const achievementSection = {
       footerLink: [
         {
           name: "Professional Certification",
-          url: "https://github.com/EliseCho13/portfolio/blob/main/etest_%EC%9E%90%EA%B2%A9%ED%99%95%EC%9D%B8%EC%84%9C.pdf"
+          url: "https://www.notion.so/Certifications-64208a6408d645bea62277b0e7900b71"
         },
         {
           name: "OA Master Certification",
-          url: "https://github.com/EliseCho13/portfolio/blob/main/etest_%EB%A7%88%EC%8A%A4%ED%84%B0.pdf"
+          url: "https://www.notion.so/Certifications-64208a6408d645bea62277b0e7900b71"
         }
       ]
     },
@@ -315,13 +315,13 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://github.com/EliseCho13/portfolio/blob/main/src/assets/images/Report_Pass_Eng_Print.pdf"
+          url: "https://github.com/EliseCho13/portfolio/blob/main/src/assets/images/hanjaCertification.pdf"
         }
       ]
     },
     {
       title: "CodeStates BootCamp",
-      subtitle: "August 2022 - February 2023",
+      subtitle: "Frontend Course",
       image: require("./assets/images/codestates.png"),
       imageAlt: "Codestates Logo",
       footerLink: [
