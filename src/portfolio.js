@@ -151,17 +151,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "UI design",
       progressPercentage: "70%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Software Engineering",
+      progressPercentage: "90%"
     }
+  ],
+  projectsDone: [
+    // React: 5,
+    // Vue: 1,
+    // C: 3,
+    // python: 10,
+    //TODO: chart.js로 원형 통계 - 웹 관련, 비 웹 관련
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -174,7 +185,7 @@ const workExperiences = {
     {
       name: "For Your Cocktail",
       team: "MixBowl",
-      teamlogo: require("./assets/images/facebookLogo.png"),
+      teamlogo: require("./assets/images/ForYourCocktailLogo.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -184,16 +195,16 @@ const workExperiences = {
       link: "https://github.com/silverwest8/MixBowl"
     },
     {
-      name: "Front-End Developer",
-      team: "Quora",
-      teamlogo: require("./assets/images/quoraLogo.png"),
+      name: "HEART",
+      team: "Heart Number 1",
+      teamlogo: require("./assets/images/HeartLogo.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      name: "Software Engineer Intern",
-      team: "Airbnb",
-      teamlogo: require("./assets/images/codestates.png"),
+      name: "Codedang",
+      team: "SKKUDING",
+      teamlogo: require("./assets/images/codedangLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
@@ -238,6 +249,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.notion.so/Certifications-64208a6408d645bea62277b0e7900b71"
+          //TODO: add link
         }
       ]
     },
