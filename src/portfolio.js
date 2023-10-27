@@ -144,7 +144,7 @@ const educationInfo = {
       schoolName: "Codestates Bootcamp",
       logo: require("./assets/images/codestates.png"),
       subHeader: ["Frontend Bootcamp"],
-      duration: "June 2022 - February 2023",
+      duration: "August 2022 - February 2023",
       desc: "Participated in two React Projects",
       descBullets: ["pre_003", "main_001"]
     }
@@ -296,7 +296,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: ""
+          url: "https://github.com/EliseCho13/portfolio/blob/main/src/assets/images/Report_Pass_Eng_Print.pdf"
         },
         {
           name: "Final Project",
