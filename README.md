@@ -29,8 +29,8 @@ Welcome to my software engineering portfolio! I'm Youji Cho, a passionate front-
 ## How portfolio was made
 
 - Used template developed by Jacobo Martínez
-- Used React.js and Sass
-- Deployment was done using Netlify as I didn't have enough time due to the midterm exam
+- Used React.js and Sass
+- Deployment was done using Netlify as I didn't have enough time due to the midterm exam
 - Used Chart.js to add Pie chart
 - Used Component-Based Development to maximize reusability
 - Two modes exist; light mode, dark mode
