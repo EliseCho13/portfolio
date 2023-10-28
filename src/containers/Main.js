@@ -51,7 +51,7 @@ const Main = () => {
             <Header />
             <Greeting />
             <Skills />
-            <StackProgress />
+            <StackProgress isDark={isDark} />
             <Education />
             <WorkExperience />
             <Projects />

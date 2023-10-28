@@ -23,7 +23,7 @@ const greeting = {
   username: "Youji Cho",
   title: "Hello, I am Youji Cho",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / TypeScript / Vue.js and some other cool libraries and frameworks."
+    "A passionate Frontend Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / TypeScript / Vue.js and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://github.com/EliseCho13/portfolio/blob/main/Resume_English.pdf",
@@ -47,15 +47,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for the web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Have done most projects as a team in harmony"),
+    emoji("⚡ Willing to learn more, contribute more")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -186,27 +184,37 @@ const workExperiences = {
       name: "For Your Cocktail",
       team: "MixBowl",
       teamlogo: require("./assets/images/ForYourCocktailLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "March 2023 – July 2023",
+      desc: "Search and upload cocktail recipe, communicate and share information about cocktail, leave a review about cocktail bars",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Used Kakao map api for cocktail bars",
+        "Trustworthy information provided by experts who has Craftsman Bartender Certification"
       ],
       link: "https://github.com/silverwest8/MixBowl"
-    },
-    {
-      name: "HEART",
-      team: "Heart Number 1",
-      teamlogo: require("./assets/images/HeartLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       name: "Codedang",
       team: "SKKUDING",
       teamlogo: require("./assets/images/codedangLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "June 2022 – Present",
+      desc: "Online Judge system for official Sungkyunkwan University",
+      descBullets: [
+        "Open Source. Students can participate in Programming Competitions and improve skills with various practice questions",
+        "Can freely create and customize functions that were lacking in the existing OJ"
+      ],
+      link: "https://github.com/skkuding/codedang"
+    },
+    {
+      name: "HEART",
+      team: "Heart Number 1",
+      teamlogo: require("./assets/images/HeartLogo.png"),
+      date: "December 2022 – February 2023",
+      desc: "HEART(Healthy Exercise Around Residance Together) is location based community website targeting people who wants to work out together with neighbors",
+      descBullets: [
+        "Used Kakao map api to find nearby users",
+        "3 Frontend, 3 Backend team (Main reposity is now removed)"
+      ],
+      link: "https://github.com/codestates-seb/seb41_main_001"
     }
   ]
 };
@@ -223,10 +231,11 @@ const openSource = {
 
 const additionalComment = {
   title: "What I want to say more",
-  subtitle:
-    "I am a developer: I have also done many kinds of projects which are not related to web frontend, such as C or python games.",
-  description:
-    "I am a software engineer: Nowaday, AI is growing rapidly. In such situation, What really important is software engineering, not just coding and debugging. I want to see how the large system works, and make improvements in that, while wisely using AI.",
+  subtitle: ["I am a developer", "I am a software engineer"],
+  description: [
+    "I have also done many kinds of projects which are not related to web frontend, such as C or python games.",
+    "Nowaday, AI is growing rapidly. In such situation, What really important is software engineering, not just coding and debugging. I want to see how the large system works, and make improvements in that, while wisely using AI."
+  ],
   display: true
   //TODO: say more
 };

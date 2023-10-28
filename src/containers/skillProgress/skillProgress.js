@@ -9,32 +9,55 @@ import {Pie} from "react-chartjs-2";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-export default function StackProgress() {
+export default function StackProgress({isDark}) {
   const data = {
-    labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+    labels: [
+      "Python",
+      "C",
+      "Java",
+      "Javascript",
+      "React.js",
+      "Kotlin",
+      "Vue.js"
+    ],
+
     datasets: [
       {
-        label: "# of Votes",
-        data: [12, 19, 3, 5, 2, 3],
+        label: "# of Projects",
+        data: [4, 5, 1, 1, 5, 1, 1],
         backgroundColor: [
           "rgba(255, 99, 132, 1)",
-          "rgba(54, 162, 235, 1)",
-          "rgba(255, 206, 86, 1)",
-          "rgba(75, 192, 192, 1)",
-          "rgba(153, 102, 255, 1)",
-          "rgba(255, 159, 64, 1)"
+          "rgba(255,215,0,1)",
+          "rgba(255, 236, 225, 1)",
+          "rgba(140, 50, 0, 1)",
+          "rgba(255, 69, 0, 1)",
+          "rgba(255, 159, 64, 1)",
+          "rgba(255, 0, 0, 1)"
         ],
         borderColor: [
           "rgba(255, 99, 132, 1)",
-          "rgba(54, 162, 235, 1)",
-          "rgba(255, 206, 86, 1)",
-          "rgba(75, 192, 192, 1)",
-          "rgba(153, 102, 255, 1)",
-          "rgba(255, 159, 64, 1)"
+          "rgba(255,215,0,1)",
+          "rgba(255, 236, 225, 1)",
+          "rgba(140, 50, 0, 1)",
+          "rgba(255, 69, 0, 1)",
+          "rgba(255, 159, 64, 1)",
+          "rgba(255, 0, 0, 1)"
         ],
         borderWidth: 1
       }
     ]
+  };
+
+  const legendColor = isDark ? "white" : "black";
+
+  const options = {
+    plugins: {
+      legend: {
+        labels: {
+          color: legendColor
+        }
+      }
+    }
   };
   if (techStack.viewSkillBars) {
     return (
@@ -57,7 +80,7 @@ export default function StackProgress() {
             })}
           </div>
           <div className="pie-container">
-            <Pie data={data} />
+            <Pie data={data} options={options} />
           </div>
 
           <div className="skills-image">

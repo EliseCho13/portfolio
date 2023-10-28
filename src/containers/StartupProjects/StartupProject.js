@@ -29,7 +29,7 @@ export default function StartupProject() {
                 : "subTitle project-subtitle"
             }
           >
-            {additionalComment.subtitle}
+            {additionalComment.subtitle[0]}
           </p>
           <p
             className={
@@ -38,7 +38,25 @@ export default function StartupProject() {
                 : "subTitle project-subtitle"
             }
           >
-            {additionalComment.description}
+            {additionalComment.description[0]}
+          </p>
+          <p
+            className={
+              isDark
+                ? "dark-mode project-subtitle"
+                : "subTitle project-subtitle"
+            }
+          >
+            {additionalComment.subtitle[1]}
+          </p>
+          <p
+            className={
+              isDark
+                ? "dark-mode project-subtitle"
+                : "subTitle project-subtitle"
+            }
+          >
+            {additionalComment.description[1]}
           </p>
         </div>
       </div>
