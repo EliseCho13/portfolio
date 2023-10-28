@@ -230,14 +230,13 @@ const openSource = {
 // Some big projects you have worked on
 
 const additionalComment = {
-  title: "What I want to say more",
+  title: "What else I want to say",
   subtitle: ["I am a developer", "I am a software engineer"],
   description: [
-    "I have also done many kinds of projects which are not related to web frontend, such as C or python games.",
-    "Nowaday, AI is growing rapidly. In such situation, What really important is software engineering, not just coding and debugging. I want to see how the large system works, and make improvements in that, while wisely using AI."
+    "I have done many kinds of projects from web frontend to python games and so on. I prefer working together, rather than doing alone; I gain energy from communicating with people, and from people themselves. I love the feeling of pleasure of when something that hasn't been resolved for a long time is clearly resolved. That's why I can't ever quit the programming.",
+    "Nowaday, AI is growing rapidly. In such situation, What really important is software engineering, such as when or how to apply what engineering principle and what software methodology to use. Partial codings can be done by AI, which means how to utilize AI by making proper prompt matters. I want to see how the large system works, and make improvements in that, while using AI wisely."
   ],
   display: true
-  //TODO: say more
 };
 
 // Achievement Section
