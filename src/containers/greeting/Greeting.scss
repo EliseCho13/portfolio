@@ -18,7 +18,7 @@
 }
 
 .subTitle {
-  color: $subTitle !important;
+  color: $subTitle;
 }
 
 .greeting-main {
@@ -114,6 +114,12 @@
   }
   .greeting-image-div {
     height: 256px;
+    margin-bottom: 40%;
+  }
+}
+@media (max-width: 500px) {
+  .greeting-image-div {
+    margin-bottom: 0rem;
   }
 }
 

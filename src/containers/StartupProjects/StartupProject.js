@@ -24,9 +24,7 @@ export default function StartupProject() {
           <h1 className="skills-heading">{additionalComment.title}</h1>
           <p
             className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
+              isDark ? "dark-mode project-subtitle" : "project-subtitle"
             }
           >
             {additionalComment.subtitle[0]}
@@ -42,9 +40,7 @@ export default function StartupProject() {
           </p>
           <p
             className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
+              isDark ? "dark-mode project-subtitle" : "project-subtitle"
             }
           >
             {additionalComment.subtitle[1]}
