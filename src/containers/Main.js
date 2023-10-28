@@ -11,7 +11,6 @@ import Blogs from "./blogs/Blogs";
 import Talks from "./talks/Talks";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
@@ -58,7 +57,6 @@ const Main = () => {
             <Achievement />
             <Blogs />
             <Talks />
-            <Twitter />
             <StartupProject />
             <Profile />
             <ScrollToTopButton />

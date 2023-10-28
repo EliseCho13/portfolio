@@ -1,22 +1,20 @@
-/* Change this file to get your personal Portfolio */
-
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true
 };
 
 const greeting = {
@@ -43,7 +41,10 @@ const socialMediaLinks = {
   display: true
 };
 
-// Skills Section
+const openSource = {
+  showGithubProfile: "true",
+  display: true
+};
 
 const skillsSection = {
   title: "What I do",
@@ -55,9 +56,6 @@ const skillsSection = {
     emoji("⚡ Have done most projects as a team in harmony"),
     emoji("⚡ Willing to learn more, contribute more")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -113,13 +111,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "Sungkyunkwan University",
@@ -143,14 +141,12 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend",
+      progressPercentage: "90%"
     },
     {
       Stack: "UI design",
@@ -165,17 +161,8 @@ const techStack = {
       progressPercentage: "90%"
     }
   ],
-  projectsDone: [
-    // React: 5,
-    // Vue: 1,
-    // C: 3,
-    // python: 10,
-    //TODO: chart.js로 원형 통계 - 웹 관련, 비 웹 관련
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
-
-// Work experience section
 
 const workExperiences = {
   display: true, //my projects
@@ -219,28 +206,17 @@ const workExperiences = {
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Some big projects you have worked on
-
 const additionalComment = {
   title: "What else I want to say",
   subtitle: ["I am a developer", "I am a software engineer"],
   description: [
     "I have done many kinds of projects from web frontend to python games and so on. I prefer working together, rather than doing alone; I gain energy from communicating with people, and from people themselves. I love the feeling of pleasure of when something that hasn't been resolved for a long time is clearly resolved. That's why I can't ever quit the programming.",
-    "Nowaday, AI is growing rapidly. In such situation, What really important is software engineering, such as when or how to apply what engineering principle and what software methodology to use. Partial codings can be done by AI, which means how to utilize AI by making proper prompt matters. I want to see how the large system works, and make improvements in that, while using AI wisely."
+    "Nowaday, AI is growing rapidly. In such situation, What really important is software engineering, such as when or how to apply what engineering principle and what software methodology to use. Partial codings can be done by AI, which means how to utilize AI by making proper prompt would matter more. I want to see how the large system works, and make improvements in that, while using AI wisely."
   ],
   display: true
 };
 
 // Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -257,7 +233,6 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.notion.so/Certifications-64208a6408d645bea62277b0e7900b71"
-          //TODO: add link
         }
       ]
     },
@@ -362,7 +337,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false
 };
 
 const contactInfo = {
@@ -373,15 +348,7 @@ const contactInfo = {
   email_address: "youjicho@g.skku.com"
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter",
-  display: false
-};
-
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
-
+const isHireable = true;
 export {
   illustration,
   greeting,
@@ -391,12 +358,11 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
   additionalComment,
+  openSource,
   achievementSection,
   blogSection,
   talkSection,
   contactInfo,
-  twitterDetails,
   isHireable
 };
