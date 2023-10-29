@@ -9,7 +9,7 @@ Welcome to my software engineering portfolio! I'm Youji Cho, a passionate front-
 - 💡 Enthusiastic about creating user-friendly and visually appealing interfaces
 - 🧑‍🤝‍🧑 Prefers to work as a team
 - 📧 Contact: youjicho@g.skku.edu
-- 🌍 Portfolio Website: TODO
+- 🌍 Portfolio Website: https://youjicho.netlify.app/
 
 ## Skills
 
@@ -28,8 +28,13 @@ Welcome to my software engineering portfolio! I'm Youji Cho, a passionate front-
 
 ## How portfolio was made
 
-Used template developed by Jacobo Martínez
-Used React.js and Sass
+- Used template developed by Jacobo Martínez
+- Used React.js and Sass
+- Deployment was done using Netlify as I didn't have enough time due to the midterm exam
+- Used Chart.js to add Pie chart
+- Used Component-Based Development to maximize reusability
+- Two modes exist; light mode, dark mode
+- Javascript based
 
 ## Education
 
@@ -44,6 +49,6 @@ Feel free to reach out to me if you have any questions, project collaborations, 
 
 - 📧 Email: youjicho@g.skku.edu
 - 📧 Alternative Email: kellycho@gmail.com
-- 🌐 Portfolio: TODO
+- 🌐 Portfolio: https://youjicho.netlify.app/
 
 Thank you for visiting my portfolio! Let's connect and build something amazing together.
