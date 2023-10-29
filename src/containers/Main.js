@@ -8,7 +8,6 @@ import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
-import Talks from "./talks/Talks";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
 import Profile from "./profile/Profile";
@@ -56,7 +55,6 @@ const Main = () => {
             <Projects />
             <Achievement />
             <Blogs />
-            <Talks />
             <StartupProject />
             <Profile />
             <ScrollToTopButton />

@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
+import {ToastContainer} from "react-toastify";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
@@ -8,7 +9,6 @@ import {
   skillsSection,
   openSource,
   blogSection,
-  talkSection,
   achievementSection
 } from "../../portfolio";
 
@@ -19,10 +19,10 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
 
   return (
     <Headroom>
+      <ToastContainer position="top-right" autoClose={2000} />
       <header className={isDark ? "dark-menu header" : "header"}>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -58,11 +58,6 @@ function Header() {
             {viewBlog && (
               <li>
                 <a href="#blogs">Blogs</a>
-              </li>
-            )}
-            {viewTalks && (
-              <li>
-                <a href="#talks">Talks</a>
               </li>
             )}
             <li>

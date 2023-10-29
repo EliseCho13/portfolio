@@ -1,6 +1,8 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import {toast} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -9,9 +11,10 @@ export default function socialMedia() {
   const handleCopyClick = async (text, type) => {
     try {
       await navigator.clipboard.writeText(text);
-      alert(`${type} ID was copied to clipboard`);
+      // alert(`${type} ID was copied to clipboard`);
+      toast(`${type} ID was copied to clipboard`);
     } catch (err) {
-      alert("Copy to clipboard failed. Please copy the text manually.");
+      toast("Copy to clipboard failed. Please copy the text manually.");
     }
   };
   return (
