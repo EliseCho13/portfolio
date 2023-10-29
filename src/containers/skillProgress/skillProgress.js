@@ -1,9 +1,7 @@
 import React from "react";
 import "./Progress.scss";
-import {illustration, techStack} from "../../portfolio";
+import {techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
-import Build from "../../assets/lottie/build";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import {Chart as ChartJS, ArcElement, Tooltip, Legend} from "chart.js";
 import {Pie} from "react-chartjs-2";
 
@@ -81,17 +79,6 @@ export default function StackProgress({isDark}) {
           </div>
           <div className="pie-container">
             <Pie data={data} options={options} />
-          </div>
-
-          <div className="skills-image">
-            {illustration.animated ? (
-              <DisplayLottie animationData={Build} />
-            ) : (
-              <img
-                alt="Skills"
-                src={require("../../assets/images/skill.svg")}
-              />
-            )}
           </div>
         </div>
       </Fade>
