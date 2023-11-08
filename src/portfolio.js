@@ -230,7 +230,9 @@ const achievementSection = {
       image: require("./assets/images/opicLogo.webp"),
       imageAlt: "Opic logo",
       footerLink: [
+        //note: 환경을 독립적으로. 이전에는 하나의 서버에 혼재되어서 사용. 모든 프로그램이 다 돌아갈 수 있는 서버를 만드는 게 어려웠다. docker로 프론트엔드, 백엔드 간 서로 영향을 주지 않는 독립적 영역 구축.
         {
+          //typescript는 속도 면에서 용이하다. 큰 프로젝트일수록.
           name: "Certification",
           url: "https://www.notion.so/Certifications-64208a6408d645bea62277b0e7900b71"
         }
