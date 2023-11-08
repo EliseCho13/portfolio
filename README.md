@@ -43,6 +43,12 @@ Welcome to my software engineering portfolio! I'm Youji Cho, a passionate front-
 - Currently 4th grade student
 - Finished boot camp of frontend course, 2022
 
+## Certification
+
+- OPIC IH, ACTFL, 2023/08/23
+- e-test, OA Master 2급, 한국창의인성교육연구원, 2023/03/04
+- 컴퓨터활용능력, 2급, KCCI, 2020/07/10
+
 ## Contact Me
 
 Feel free to reach out to me if you have any questions, project collaborations, or just want to chat:
