@@ -174,7 +174,7 @@ const workExperiences = {
       date: "March 2023 – July 2023",
       desc: "Search and upload cocktail recipe, communicate and share information about cocktail, leave a review about cocktail bars",
       descBullets: [
-        "Used Kakao map api for cocktail bars",
+        "Used Kakao map api for cocktail bars, Responsive",
         "Trustworthy information provided by experts who has Craftsman Bartender Certification"
       ],
       link: "https://github.com/silverwest8/MixBowl"
@@ -199,9 +199,21 @@ const workExperiences = {
       desc: "HEART(Healthy Exercise Around Residance Together) is location based community website targeting people who wants to work out together with neighbors",
       descBullets: [
         "Used Kakao map api to find nearby users",
-        "3 Frontend, 3 Backend team (Main reposity is now removed)"
+        "3 Frontend, 3 Backend team"
       ],
-      link: "https://github.com/codestates-seb/seb41_main_001"
+      link: "https://github.com/EliseCho13/Heart"
+    },
+    {
+      name: "COEDMETER",
+      team: "SoGongGae Team4",
+      teamlogo: require("./assets/images/HeartLogo.png"),
+      date: "September 2023 – December 2023",
+      desc: "Carbon Emission Calculator of Code",
+      descBullets: [
+        "Calculated from measuring runtime and memory usage of JAVA code, Eco-friendly",
+        "2 Frontend, 4 Backend team, Responsive"
+      ],
+      link: "https://github.com/skkuse/2023fall_41class_team4"
     }
   ]
 };
