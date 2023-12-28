@@ -206,7 +206,7 @@ const workExperiences = {
     {
       name: "COEDMETER",
       team: "SoGongGae Team4",
-      teamlogo: require("./assets/images/HeartLogo.png"),
+      teamlogo: require("./assets/images/CODEMETER.jpg"),
       date: "September 2023 – December 2023",
       desc: "Carbon Emission Calculator of Code",
       descBullets: [
