@@ -87,6 +87,10 @@ const skillsSection = {
       fontAwesomeClassname: "redux"
     },
     {
+      skillName: "recoil",
+      fontAwesomeClassname: "recoil"
+    },
+    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -95,8 +99,16 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "tailwind",
+      fontAwesomeClassname: "tailwind"
+    },
+    {
+      skillName: "C",
+      fontAwesomeClassname: "fas fa-c"
+    },
+    {
+      skillName: "styled-component",
+      fontAwesomeClassname: "styled"
     },
     {
       skillName: "Typescript",
