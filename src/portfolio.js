@@ -104,7 +104,7 @@ const skillsSection = {
     },
     {
       skillName: "C",
-      fontAwesomeClassname: "fas fa-c"
+      fontAwesomeClassname: "C"
     },
     {
       skillName: "styled-component",
