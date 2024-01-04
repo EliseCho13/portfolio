@@ -3,7 +3,7 @@ import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
 
 const iconMapping = {
-  typescript: require("../../assets/images/typescript_original_logo.png"),
+  typescript: require("../../assets/images/typescript_logo.png"),
   redux: require("../../assets/images/redux_original_logo.png"),
   styled: require("../../assets/images/styled-components_logo.png"),
   recoil: require("../../assets/images/recoil_logo.png"),
