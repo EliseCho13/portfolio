@@ -2,61 +2,61 @@ import React from "react";
 import "./Progress.scss";
 import {techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
-import {Chart as ChartJS, ArcElement, Tooltip, Legend} from "chart.js";
+// import {Chart as ChartJS, ArcElement, Tooltip, Legend} from "chart.js";
 import {Pie} from "react-chartjs-2";
 
-ChartJS.register(ArcElement, Tooltip, Legend);
+// ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function StackProgress({isDark}) {
-  const data = {
-    labels: [
-      "Python",
-      "C",
-      "Java",
-      "Javascript",
-      "React.js",
-      "Kotlin",
-      "Vue.js"
-    ],
+  // const data = {
+  //   labels: [
+  //     "Python",
+  //     "C",
+  //     "Java",
+  //     "Javascript",
+  //     "React.js",
+  //     "Kotlin",
+  //     "Vue.js"
+  //   ],
 
-    datasets: [
-      {
-        label: "# of Projects",
-        data: [4, 5, 1, 1, 5, 1, 1],
-        backgroundColor: [
-          "rgba(255, 99, 132, 1)",
-          "rgba(255,215,0,1)",
-          "rgba(255, 236, 225, 1)",
-          "rgba(140, 50, 0, 1)",
-          "rgba(255, 69, 0, 1)",
-          "rgba(255, 159, 64, 1)",
-          "rgba(255, 0, 0, 1)"
-        ],
-        borderColor: [
-          "rgba(255, 99, 132, 1)",
-          "rgba(255,215,0,1)",
-          "rgba(255, 236, 225, 1)",
-          "rgba(140, 50, 0, 1)",
-          "rgba(255, 69, 0, 1)",
-          "rgba(255, 159, 64, 1)",
-          "rgba(255, 0, 0, 1)"
-        ],
-        borderWidth: 1
-      }
-    ]
-  };
+  //   datasets: [
+  //     {
+  //       label: "# of Projects",
+  //       data: [4, 5, 1, 1, 5, 1, 1],
+  //       backgroundColor: [
+  //         "rgba(255, 99, 132, 1)",
+  //         "rgba(255,215,0,1)",
+  //         "rgba(255, 236, 225, 1)",
+  //         "rgba(140, 50, 0, 1)",
+  //         "rgba(255, 69, 0, 1)",
+  //         "rgba(255, 159, 64, 1)",
+  //         "rgba(255, 0, 0, 1)"
+  //       ],
+  //       borderColor: [
+  //         "rgba(255, 99, 132, 1)",
+  //         "rgba(255,215,0,1)",
+  //         "rgba(255, 236, 225, 1)",
+  //         "rgba(140, 50, 0, 1)",
+  //         "rgba(255, 69, 0, 1)",
+  //         "rgba(255, 159, 64, 1)",
+  //         "rgba(255, 0, 0, 1)"
+  //       ],
+  //       borderWidth: 1
+  //     }
+  //   ]
+  // };
 
-  const legendColor = isDark ? "white" : "black";
+  // const legendColor = isDark ? "white" : "black";
 
-  const options = {
-    plugins: {
-      legend: {
-        labels: {
-          color: legendColor
-        }
-      }
-    }
-  };
+  // const options = {
+  //   plugins: {
+  //     legend: {
+  //       labels: {
+  //         color: legendColor
+  //       }
+  //     }
+  //   }
+  // };
   if (techStack.viewSkillBars) {
     return (
       <Fade bottom duration={1000} distance="20px">
@@ -77,9 +77,9 @@ export default function StackProgress({isDark}) {
               );
             })}
           </div>
-          <div className="pie-container">
+          {/* <div className="pie-container">
             <Pie data={data} options={options} />
-          </div>
+          </div> */}
         </div>
       </Fade>
     );
